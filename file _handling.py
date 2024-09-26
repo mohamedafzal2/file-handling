@@ -34,12 +34,13 @@
 
 
 # Open a file in read and write mode
-file = open('example.txt', 'r+')
-print(file.read())
-file.write(' This is appended text.')
-file.close()
+# file = open('example.txt', 'r+')
+# print(file.read())
+# file.write(' This is appended text.')
+# file.close()
 
- # open a file in binary mode
-file = open('PO.jpg','rb')
-print(file.read)
+# Open a file in binary mode
+
+file = open('file handling\photo.jpg', 'rb')
+print(file.read())
 file.close()
