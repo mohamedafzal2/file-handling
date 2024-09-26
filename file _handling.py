@@ -46,9 +46,3 @@
 # file.close()
 
 
-
-# Open a file in append mode
-file = open('example.txt', 'a')
-file.write('This is appended text.')
-file.close()
-
