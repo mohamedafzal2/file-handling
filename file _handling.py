@@ -41,6 +41,6 @@
 
 # Open a file in binary mode
 
-file = open('file handling\photo.jpg', 'rb')
+file = open(r'file handling\photo.jpg', 'rb')
 print(file.read())
 file.close()
