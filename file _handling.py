@@ -41,6 +41,14 @@
 
 # Open a file in binary mode
 
-file = open(r'file handling\photo.jpg', 'rb')
-print(file.read())
+# file = open(r'file handling\photo.jpg', 'rb')
+# print(file.read())
+# file.close()
+
+
+
+# Open a file in append mode
+file = open('example.txt', 'a')
+file.write('This is appended text.')
 file.close()
+
